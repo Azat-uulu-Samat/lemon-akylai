@@ -7,8 +7,8 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, "public")));
 
-const TOKEN = "8329808232:AAG4mVNouoEqjXXlAyBsOf6e9KF39F_fxGg";
-const CHAT_ID = 1371327631;
+const TOKEN = process.env.TELEGRAM_TOKEN;
+const CHAT_ID = process.env.TELEGRAM_CHAT;
 
 app.post("/send-form", async (req, res) => {
   const { name, surname, phone, message } = req.body;
@@ -34,3 +34,4 @@ app.post("/send-form", async (req, res) => {
 });
 
 app.listen(3000, () => console.log("Server running on http://localhost:3000"));
+
