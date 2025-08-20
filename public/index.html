@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akylai_Lemon</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lora:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="root">
+    <div class="page">
+      <header class="header">
+        <div class="container">
+          <div class="header__flex">
+            <div class="header__flex-logo">
+              <a href="#">
+                <img src="./img/logo.png" alt="логотип" />
+              </a>
+            </div>
+            <nav class="header__nav">
+              <ul class="header__nav-list">
+                <li>
+                  <a class="header__nav-list-link" href="#about">Обо мне</a>
+                </li>
+                <li>
+                  <a class="header__nav-list-link" href="#team">Команда</a>
+                </li>
+                <li>
+                  <a class="header__nav-list-link" href="#reviews">Отзывы</a>
+                </li>
+                <li>
+                  <a class="header__nav-list-link" href="#faq">Faq</a>
+                </li>
+                <li>
+                  <a class="header__nav-list-link" href="#contacts">Контакты</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__social">
+              <a
+                class="header__social-link"
+                href="https://wa.me/+996505322393"
+                target="_blank"
+              >
+                <img src="./img/header/whatsapp.png" alt="whatsapp" />
+              </a>
+              <a
+                class="header__social-link"
+                href="https://t.me/JUSAKIL8"
+                target="_blank"
+              >
+                <img src="./img/header/telegram.png" alt="telegram" />
+              </a>
+            </div>
+            <div class="burger" id="burger">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <nav class="mobile-menu" id="mobileMenu">
+              <ul>
+                <li><a href="#particles-js">Главная</a></li>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+              </ul>
+              <div class="socials">
+                <a
+                  class="socials-instagram"
+                  href="https://www.instagram.com/akilayjusupova_lemon?igsh=c3h1ZW5tY3dva2Yz"
+                  target="_blank"
+                  ><img src="./img/footer/instagram.svg" alt="Instagram"
+                /></a>
+                <a
+                  class="socials-telegram"
+                  href="https://t.me/JUSAKIL8"
+                  target="_blank"
+                  ><img src="./img/footer/telegram.svg" alt="Telegram"
+                /></a>
+                <a
+                  class="socials-whatsapp"
+                  href="https://wa.me/+996505322393"
+                  target="_blank"
+                  ><img src="./img/footer/whatsapp.svg" alt="WhatsApp"
+                /></a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main class="content">
+        <section class="intro" id="particles-js">
+          <div class="container">
+            <div class="intro__box">
+              <div class="intro__box-left">
+                <h1 class="intro__box-left-title">
+                  Стань частью быстрорастущей команды!
+                </h1>
+                <p class="intro__box-left-subtitle">
+                  Работа на маркетплейсе с возможностью роста и стабильного
+                  дохода.
+                </p>
+                <p class="intro__box-left-text typed-wrapper">
+                  <span id="typed-text"></span>
+                </p>
+                <button id="openModalBtn" class="intro__box-left-btn">
+                  Связаться
+                </button>
+              </div>
+              <div class="intro__box-right">
+                <div class="intro__box-right-image">
+                  <img src="./img/intro/photo.png" alt="Фото" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="about" id="about">
+          <div class="container">
+            <h2 class="about-title">Обо <span>мне</span></h2>
+            <div class="about__wrapper">
+              <div class="about__info">
+                <h3 class="about__info-title">
+                  Меня зовут <span>Акылай</span>
+                </h3>
+                <p class="about__info-subtitle">
+                  Всё началось с обычного интереса — я просто искала способ
+                  зарабатывать удалённо. Не было чётких знаний, не было опыта,
+                  только желание и немного сомнений. Я начала с малого: изучала
+                  платформу, задавала вопросы, искала ответы, делала первые
+                  шаги. Первые дни были непростыми — что-то не получалось,
+                  где-то не хватало уверенности. Но каждый день я становилась
+                  чуть увереннее, чуть смелее, чуть свободнее. Со временем я не
+                  только освоила работу на маркетплейсе, но и стала помогать
+                  другим. Поддерживать новичков, объяснять, делиться тем, что
+                  сама прошла. Сейчас я — тот человек, к которому идут за
+                  мотивацией, за ясностью и за первым толчком вперёд. Работа
+                  стала не просто занятием, а источником роста — и для меня
+                  самой, и для тех, кому я помогаю.
+                </p>
+                <p class="about__info-description">
+                  Заинтересовало? Тогда листай дальше!
+                </p>
+              </div>
+              <div class="about__profile">
+                <img
+                  class="about__profile-img"
+                  src="./img/about/profile.jpg"
+                  alt="Мое фото"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="team-block" id="team">
+          <div class="container">
+            <h2 class="team-block-title">
+              Команда, которая <br />растёт вместе
+            </h2>
+            <p class="team-subtext">
+              Всё началось с одного человека. <br />Сегодня — это сообщество
+              поддержки, обучения и роста.
+            </p>
+
+            <div class="team-gallery-grid">
+              <img
+                src="./img/team/photo1.jpg"
+                class="photo small"
+                alt="Обучение 1"
+              />
+              <img
+                src="./img/team/photo2.jpg"
+                class="photo small"
+                alt="Обучение 2"
+              />
+              <img
+                src="./img/team/photo3.jpg"
+                class="photo tall"
+                alt="Обучение 3"
+              />
+              <img
+                src="./img/team/photo4.jpg"
+                class="photo small"
+                alt="Обучение 4"
+              />
+            </div>
+            <div class="team__description">
+              <p class="team__description-text">
+                Обучение — это первый шаг к уверенности и успеху. Здесь каждый
+                получает знания, необходимые для роста и достижения целей.
+                Вместе разбираются сложные моменты, чтобы путь к новым вершинам
+                был понятным и доступным. Поддержка — неотъемлемая часть этого
+                пути. Никто не остаётся один на сложных этапах, ведь рядом
+                всегда команда, готовая помочь и вдохновить. Ошибки
+                воспринимаются как опыт, а трудности — как возможность стать
+                сильнее. Каждый, кто приходит сюда, получает не только знания,
+                но и мотивацию двигаться вперёд. Здесь учат не бояться нового,
+                пробовать и не останавливаться на полпути. Вместе создаётся
+                пространство, где можно учиться, развиваться и достигать
+                результатов. Это место, где растут не только профессионалы, но и
+                личности — уверенные, целеустремлённые и готовые брать
+                ответственность за своё будущее. В этом процессе важна не
+                скорость, а постоянство и желание идти дальше. Каждый шаг вперёд
+                — это шаг всей команды, которая поддерживает, вдохновляет и
+                помогает раскрыть потенциал каждого.
+              </p>
+            </div>
+            <div class="team__wrapper">
+              <h3 class="team__wrapper-title">
+                Мы — команда, которая растёт вместе
+              </h3>
+              <p class="team__wrapper-subtitle">
+                Наша команда — это не просто группа людей, собравшихся ради
+                общей цели. Это сообщество, где каждый чувствует себя нужным,
+                услышанным и поддержанным. Мы — разные: с разным опытом,
+                характером, мечтами. Но нас объединяет одно — желание расти,
+                делиться и делать это вместе. Мы верим, что настоящий успех
+                приходит не в одиночку, а в окружении тех, кто готов подставить
+                плечо, вдохновить, объяснить и порадоваться за твои победы. Мы
+                помогаем друг другу не потому, что обязаны, а потому что нам
+                важно, чтобы рос каждый. Потому что в команде нет чужих успехов
+                — есть наши общие шаги вперёд. Мы растём, учимся, ошибаемся и
+                пробуем снова — и в этом нас поддерживает каждое плечо рядом.
+                Здесь ты можешь быть собой, можешь задавать вопросы, пробовать,
+                предлагать. Мы не просто развиваемся как специалисты — мы растём
+                как личности, становимся увереннее, смелее, сильнее. Здесь никто
+                не останется один. Потому что команда — это место, где даже в
+                трудный день тебе скажут: «Ты справишься. Мы рядом». И мы
+                действительно рядом — в работе, в развитии и даже в отдыхе.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="reviews" id="reviews">
+          <div class="container">
+            <h2 class="reviews-title">Отзывы участников</h2>
+            <div class="reviews__box swiper">
+              <div class="reviews__box-slider swiper-wrapper">
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">А</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">Алия.К</h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Бишкек</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Мне всё понравилось, особенно подход к новичкам. С самого
+                      первого дня чувствовалась поддержка, объясняют всё по
+                      шагам, не бросают. Когда попала в команду, у меня не было
+                      никакого опыта, но сейчас я уже сама помогаю другим.
+                      Атмосфера здесь действительно тёплая, не как в обычной
+                      работе.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">Ж</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Жазгуль.О
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Ош</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Этот маркетплейс — находка. Всё работает чётко, доставка
+                      действительно без карго, напрямую, по своей цене. Это
+                      огромный плюс — людям удобно и понятно, а мне легко
+                      объяснять.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">М</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Медина.А
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">
+                      г.Кара-Балта
+                    </p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Очень благодарна команде и особенно Акылай. Я пришла,
+                      ничего не зная, и за неделю уже уверенно начала общаться с
+                      клиентами. Важно, что никто не давит и не торопит, дают
+                      время разобраться. И сам маркетплейс удобный, реально
+                      помогает людям.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">М</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Нурсултан.Б
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Токмок</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Сначала сомневался — думал, вдруг очередной развод. Но
+                      когда увидел, как всё устроено, понял: тут всё
+                      по-настоящему. Маркетплейс надёжный, доставка без
+                      посредников, цена не завышена. А команда вообще супер: с
+                      юмором, поддержкой, и каждый знает своё дело.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">Г</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Гульзат.М
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Бишкек</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Мне было важно найти место, где можно работать и расти.
+                      Здесь я это нашла. Не просто выполняешь задания, а
+                      чувствуешь, что двигаешься вперёд. Коллектив очень дружный
+                      — будто все давно знакомы. И приятно, что нет карго — это
+                      действительно редкость сейчас.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">А</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Азамат.С
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">
+                      г.Джалал-Абад
+                    </p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Это место для тех, кто хочет начать с нуля. Не важно, есть
+                      у тебя опыт или нет — здесь научат, объяснят и не осудят
+                      за ошибки. А доставка напрямую — это вообще огромный плюс.
+                      Люди получают товар быстро, а ты не объясняешь ничего
+                      лишнего.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">Э</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">Элина.О</h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Бишкек</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Я пришла в команду по совету подруги — и не пожалела ни на
+                      секунду. Всё чётко: обучение, сопровождение, поддержка.
+                      Особенно порадовало, что можно заказывать без карго — это
+                      облегчает всё. Сейчас уже сама веду клиентов, и это только
+                      начало.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">М</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">
+                      Мээрим.Т
+                    </h4>
+                    <p class="reviews__box-slider-slide-top-place">г.Каракол</p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Здесь реально не просто работа, а окружение, в котором
+                      приятно находиться. Люди добрые, всё объясняют, никто не
+                      делает вид, что ты "мешаешь". Очень помогает, что все
+                      заказы идут напрямую — так легче и честнее. А когда
+                      видишь, что у других получается — сам заряжаешься.
+                    </p>
+                  </div>
+                </div>
+                <div class="reviews__box-slider-slide swiper-slide">
+                  <div class="reviews__box-slider-slide-top">
+                    <div class="reviews__box-slider-slide-top-ava">
+                      <p class="reviews__box-slider-slide-top-ava-text">И</p>
+                    </div>
+                    <h4 class="reviews__box-slider-slide-top-title">Ислам.П</h4>
+                    <p class="reviews__box-slider-slide-top-place">
+                      г.Чолпон-Ата
+                    </p>
+                  </div>
+                  <div class="reviews__box-slider-slide-bottom">
+                    <p class="reviews__box-slider-slide-bottom-text">
+                      Я раньше не верил в такие проекты, но решил попробовать —
+                      и не пожалел. Команда — как семья. Тут ты чувствуешь себя
+                      частью чего-то настоящего, а не просто исполнителем.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+            <div class="swiper-button-prev">
+              <img src="./img/reviews/arrow-left.svg" alt="назад" />
+            </div>
+            <div class="swiper-button-next">
+              <img src="./img/reviews/arrow-right.svg" alt="вперед" />
+            </div>
+          </div>
+        </section>
+        <section class="faq" id="faq">
+          <div class="container">
+            <h2 class="faq-title">Вопросы и ответы</h2>
+            <div class="faq__box">
+              <div class="faq__item active">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">Что такое маркетплейс?</p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Маркетплейс — это онлайн-платформа, где продавцы размещают
+                    свои товары, а покупатели могут заказать их напрямую, без
+                    посредников и карго.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">
+                    Нужно ли иметь опыт в продажах?
+                  </p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Нет, не нужно. Мы обучаем с нуля — рассказываем, как
+                    работать с клиентами, где искать заказы и как оформлять их
+                    правильно.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">
+                    Кто помогает, если возникают вопросы?
+                  </p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Ты не будешь один. У нас есть команда и кураторы, которые
+                    всегда на связи. Мы разбираем трудности, подсказываем и
+                    поддерживаем.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">
+                    Как происходит доставка товара?
+                  </p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Доставка идёт без карго — напрямую, по прозрачной цене. Это
+                    удобно и для продавцов, и для покупателей.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">Что, если я ошибусь?</p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Ошибки — это нормально. Главное, не бояться спрашивать и
+                    учиться. Мы рядом и помогаем на каждом этапе.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">Где искать клиентов?</p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Мы делимся инструментами и опытом, как находить клиентов
+                    через соцсети, рекомендации, а также через платформу самой
+                    команды.
+                  </p>
+                </div>
+              </div>
+              <div class="faq__item">
+                <div class="faq__item-trigger">
+                  <p class="faq__item-trigger-title">
+                    Можно ли совмещать с учёбой или работой?
+                  </p>
+                  <img
+                    class="arrow arrow-initial"
+                    src="./img/faq/arrow.svg"
+                    alt="arrow"
+                  />
+                  <img
+                    class="arrow arrow-active"
+                    src="./img/faq/arrow-active.svg"
+                    alt="arrow-active"
+                  />
+                </div>
+                <div class="faq__item-content">
+                  <p class="faq__item-content-subtext">
+                    Конечно. Вся работа организована удалённо и гибко по времени
+                    — ты сам выбираешь, когда работать.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="form-block-full" id="contacts">
+          <div class="container">
+            <h2 class="form-block-full__title">Оставьте заявку</h2>
+            <p class="form-block-full__subtitle">
+              Мы свяжемся с вами в ближайшее время
+            </p>
+            <form
+              class="form-block-full__form"
+              action="#"
+              method="POST"
+              novalidate
+            >
+              <div class="form-block-full__row">
+                <input type="text" name="name" placeholder="Имя" required />
+                <input
+                  type="text"
+                  name="surname"
+                  placeholder="Фамилия"
+                  required
+                />
+                <input type="tel" name="phone" placeholder="Телефон" required />
+              </div>
+              <textarea
+                name="message"
+                placeholder="Ваше сообщение"
+                required
+              ></textarea>
+              <button type="submit">Отправить</button>
+            </form>
+          </div>
+        </section>
+
+        <!-- Модальное окно -->
+        <div id="modal" class="modal">
+          <div class="modal-content">
+            <button class="modal-close" id="modalCloseBtn">
+              <img src="./img/modal/close.svg" alt="close" />
+            </button>
+            <section class="modal-section">
+              <div class="modal-container">
+                <h2 class="modal-title">Связаться с нами</h2>
+                <p class="modal-subtitle">
+                  Оставьте заявку, и мы с вами свяжемся
+                </p>
+                <form class="modal-form" action="#" method="POST" novalidate>
+                  <div class="modal-form-row">
+                    <input type="text" name="name" placeholder="Имя" required />
+                    <input
+                      type="text"
+                      name="surname"
+                      placeholder="Фамилия"
+                      required
+                    />
+                    <input
+                      type="tel"
+                      name="phone"
+                      placeholder="Номер телефона"
+                      required
+                    />
+                  </div>
+                  <textarea
+                    name="message"
+                    placeholder="Ваше сообщение"
+                    required
+                  ></textarea>
+                  <button type="submit">Отправить</button>
+                </form>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="footer-content">
+            <div class="footer-logo">
+              <a href="">
+                <img src="./img/logo.png" alt="Логотип" />
+              </a>
+              <p>Продвигаем, вдохновляем и создаём возможности.</p>
+            </div>
+
+            <div class="footer-links">
+              <h4>Навигация</h4>
+              <ul>
+                <li><a href="#particles-js">Главная</a></li>
+                <li><a href="#about">О себе</a></li>
+                <li><a href="#team">Команда</a></li>
+                <li><a href="#reviews">Отзывы</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-contacts">
+              <h4>Контакты</h4>
+              <p>Телефон: <a href="tel:+996700123456">+996 505 322 393</a></p>
+              <p>
+                Email:
+                <a href="mailto:akylai@marketplace.kg">akylai@marketplace.kg</a>
+              </p>
+              <div class="socials">
+                <a
+                  class="socials-instagram"
+                  href="https://www.instagram.com/akilayjusupova_lemon?igsh=c3h1ZW5tY3dva2Yz"
+                  target="_blank"
+                  ><img src="./img/footer/instagram.svg" alt="Instagram"
+                /></a>
+                <a
+                  class="socials-telegram"
+                  href="https://t.me/JUSAKIL8"
+                  target="_blank"
+                  ><img src="./img/footer/telegram.svg" alt="Telegram"
+                /></a>
+                <a
+                  class="socials-whatsapp"
+                  href="https://wa.me/+996505322393"
+                  target="_blank"
+                  ><img src="./img/footer/whatsapp.svg" alt="WhatsApp"
+                /></a>
+              </div>
+              <div class="made-by">
+                <img
+                  src="./img/footer/AZdev.jpg"
+                  alt="Author"
+                  class="made-by__avatar"
+                />
+                <span
+                  >Made with ❤️ by
+                  <a href="https://t.me/AZdev_7" target="_blank">AZdev</a></span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 Акылай и команда. Все права защищены.</p>
+        </div>
+      </footer>
+    </div>
+    <div class="form-success-top" id="form-success">
+      Спасибо, мы свяжемся с вами!
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <!-- <script src="./js/server.js"></script> -->
+  </body>
+</html>
